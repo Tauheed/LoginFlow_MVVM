@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F16B95D26BBA9A300BF7402 /* NewPswViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F16B95C26BBA9A300BF7402 /* NewPswViewController.swift */; };
+		4F16B96126BBA9BD00BF7402 /* ForgotPswViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F16B96026BBA9BD00BF7402 /* ForgotPswViewController.swift */; };
+		4F16B96526BBA9D100BF7402 /* OTPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F16B96426BBA9D100BF7402 /* OTPViewController.swift */; };
 		4F75CFC826BAC6C000C681DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F75CFC726BAC6C000C681DA /* AppDelegate.swift */; };
 		4F75CFCA26BAC6C000C681DA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F75CFC926BAC6C000C681DA /* SceneDelegate.swift */; };
 		4F75CFCC26BAC6C000C681DA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F75CFCB26BAC6C000C681DA /* LoginViewController.swift */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4F16B95C26BBA9A300BF7402 /* NewPswViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPswViewController.swift; sourceTree = "<group>"; };
+		4F16B96026BBA9BD00BF7402 /* ForgotPswViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPswViewController.swift; sourceTree = "<group>"; };
+		4F16B96426BBA9D100BF7402 /* OTPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPViewController.swift; sourceTree = "<group>"; };
 		4F75CFC426BAC6C000C681DA /* LoginFlow_MVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginFlow_MVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F75CFC726BAC6C000C681DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4F75CFC926BAC6C000C681DA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +65,9 @@
 				4F75CFC726BAC6C000C681DA /* AppDelegate.swift */,
 				4F75CFC926BAC6C000C681DA /* SceneDelegate.swift */,
 				4F75CFCB26BAC6C000C681DA /* LoginViewController.swift */,
+				4F16B95C26BBA9A300BF7402 /* NewPswViewController.swift */,
+				4F16B96026BBA9BD00BF7402 /* ForgotPswViewController.swift */,
+				4F16B96426BBA9D100BF7402 /* OTPViewController.swift */,
 				4F75CFCD26BAC6C100C681DA /* Main.storyboard */,
 				4F75CFD026BAC6C600C681DA /* Assets.xcassets */,
 				4F75CFD226BAC6C600C681DA /* LaunchScreen.storyboard */,
@@ -139,6 +148,9 @@
 			files = (
 				4F75CFCC26BAC6C000C681DA /* LoginViewController.swift in Sources */,
 				4F75CFC826BAC6C000C681DA /* AppDelegate.swift in Sources */,
+				4F16B96126BBA9BD00BF7402 /* ForgotPswViewController.swift in Sources */,
+				4F16B95D26BBA9A300BF7402 /* NewPswViewController.swift in Sources */,
+				4F16B96526BBA9D100BF7402 /* OTPViewController.swift in Sources */,
 				4F75CFCA26BAC6C000C681DA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
