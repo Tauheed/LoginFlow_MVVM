@@ -21,5 +21,9 @@ class LoginViewController: UIViewController {
     }
 
 
+    @IBAction func loginAction(sender: UIButton) {
+        
+        performSegue(withIdentifier: "ForgotPSWIdentifier", sender: self)
+    }
 }
 

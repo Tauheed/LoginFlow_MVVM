@@ -15,6 +15,13 @@ class ForgotPswViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    @IBAction func submitEmailAction(sender: UIButton) {
+        
+        performSegue(withIdentifier: "OTPIdentifier", sender: self)
+    }
+
+    
+    
 
     /*
     // MARK: - Navigation
