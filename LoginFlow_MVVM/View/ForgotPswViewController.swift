@@ -9,10 +9,14 @@ import UIKit
 
 class ForgotPswViewController: UIViewController {
 
+    @IBOutlet weak var userId: UITextField!
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        userId.text = UserDefaultUtility().getUserId()
+
     }
     
     @IBAction func submitEmailAction(sender: UIButton) {
@@ -33,4 +37,13 @@ class ForgotPswViewController: UIViewController {
     }
     */
 
+}
+
+
+extension ForgotPswViewController : UITextFieldDelegate {
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        self.view.endEditing(true)
+        return false
+    }
 }
